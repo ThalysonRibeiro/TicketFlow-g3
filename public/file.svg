@@ -1,1 +1,23 @@
-<svg fill="none" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path d="M14.5 13.5V5.41a1 1 0 0 0-.3-.7L9.8.29A1 1 0 0 0 9.08 0H1.5v13.5A2.5 2.5 0 0 0 4 16h8a2.5 2.5 0 0 0 2.5-2.5m-1.5 0v-7H8v-5H3v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1M9.5 5V2.12L12.38 5zM5.13 5h-.62v1.25h2.12V5zm-.62 3h7.12v1.25H4.5zm.62 3h-.62v1.25h7.12V11z" clip-rule="evenodd" fill="#666" fill-rule="evenodd"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200">
+  <!-- Base shape -->
+  <path d="M50 50 L300 50 L280 150 L30 150 Z" fill="#1E88E5"/>
+  
+  <!-- Accent lines -->
+  <path d="M40 70 L290 70" stroke="white" stroke-width="2"/>
+  <path d="M35 90 L285 90" stroke="white" stroke-width="2"/>
+  
+  <!-- G3 Text -->
+  <text x="60" y="120" font-family="Arial" font-weight="900" font-size="60" fill="white">G3</text>
+  
+  <!-- Small circle decorative elements -->
+  <circle cx="180" cy="100" r="5" fill="white"/>
+  <circle cx="200" cy="100" r="5" fill="white"/>
+  <circle cx="220" cy="100" r="5" fill="white"/>
+  
+  <!-- Controle Text -->
+  <text x="120" y="145" font-family="Arial" font-weight="bold" font-size="24" fill="#fff">CONTROLE</text>
+  
+  <!-- Abstract circuit-like patterns -->
+  <path d="M260 80 L280 80 L290 90 L270 90 Z" fill="white" opacity="0.8"/>
+  <path d="M260 110 L280 110 L290 120 L270 120 Z" fill="white" opacity="0.8"/>
+</svg>
