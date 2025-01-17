@@ -8,7 +8,7 @@ export function DashboardHeader() {
         <Link href="/dashboard" className="hover:font-bold duration-300">
           Chamados aberto
         </Link>
-        <Link href="/chamadofechado" className="hover:font-bold duration-300">
+        <Link href="/dashboard/chamadofechado" className="hover:font-bold duration-300">
           Chamados fechado
         </Link>
         <Link href="/dashboard/customer" className="hover:font-bold duration-300">
