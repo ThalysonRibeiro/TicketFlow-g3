@@ -10,9 +10,8 @@ TicketFlow é uma solução completa para gerenciamento de chamados técnicos, p
 
 - **Cadastro de Clientes**: Registre informações completas de seus clientes
 - **Gerenciamento de Chamados**: Crie, atualize e acompanhe o status dos chamados
-- **Atribuição de Responsáveis**: Defina técnicos responsáveis para cada chamado
-- **Histórico de Atendimentos**: Visualize todo o histórico de interações
-- **Autenticação de Usuários**: Sistema seguro com diferentes níveis de acesso
+- **Histórico de Atendimentos**: Visualize o histórico de chamados
+- **Autenticação de Usuários**: Sistema seguro
 - **Interface Responsiva**: Acesse o sistema de qualquer dispositivo
 
 ## 🚀 Tecnologias Utilizadas
@@ -50,7 +49,7 @@ TicketFlow é uma solução completa para gerenciamento de chamados técnicos, p
 
 3. Configure as variáveis de ambiente:
    ```bash
-   cp .env.example .env
+   .env.example .env
    ```
    Edite o arquivo `.env` com suas configurações.
    
@@ -86,7 +85,7 @@ TicketFlow é uma solução completa para gerenciamento de chamados técnicos, p
 ## 🔒 Autenticação
 
 O sistema utiliza NextAuth para autenticação, suportando:
-- Autenticação OAuth (Google, GitHub)
+- Autenticação OAuth (Google)
 
 ## 🧩 Fluxo de Trabalho
 
@@ -113,7 +112,3 @@ O sistema utiliza NextAuth para autenticação, suportando:
 ## 📄 Licença
 
 Este projeto está licenciado sob a licença MIT - veja o arquivo LICENSE.md para detalhes.
-
-## 📞 Suporte
-
-Para suporte, envie um e-mail para suporte@ticketflow.exemplo.com ou abra uma issue no repositório do projeto.
