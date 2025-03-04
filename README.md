@@ -53,16 +53,18 @@ TicketFlow é uma solução completa para gerenciamento de chamados técnicos, p
    cp .env.example .env
    ```
    Edite o arquivo `.env` com suas configurações.
+   
+   ```.env
+   DATABASE_URL=url do banco
+   NODE_ENV==developdment
+   NEXTAUTH_URL=http://localhost:3000/
+   HOST_UR=http://localhost:3000/
+   NEXTAUTH_SECRET=
+   GOOGLE_CLIENT_ID=
+   GOOGLE_CLIENT_SECRET=
+   ```
 
-```.env
-DATABASE_URL=url do banco
-NODE_ENV==developdment
-NEXTAUTH_URL=http://localhost:3000/
-HOST_UR=http://localhost:3000/
-NEXTAUTH_SECRET=
-GOOGLE_CLIENT_ID=
-GOOGLE_CLIENT_SECRET=
-```
+
 
 
 5. Configure o banco de dados:
